@@ -7,12 +7,174 @@
 
 
     <!-- tailwind cdn link and daisy ui link is here -->
-     
+
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
 <body>
-    
+
+
+    <!-- navbar start here -->
+    <header class="bg-base-200 border-b-1 border-gray-200 sticky top-0">
+        <section class="w-10/12 mx-auto py-3">
+            <div class="navbar">
+                <div class="navbar-start flex items-center gap-2">
+                    <h2 class="text-2xl font-bold">English</h2>
+                    <img src="./assets/logo.png" alt="">
+                    <h3 class="text-[18px] font-bold">জানালা</h3>
+                </div>
+                <div class="navbar-end gap-4">
+                    <a class="btn border-[#422ad5] text-[#422ad5]"><img src="./assets/fa-circle-question.png" alt="">FAQ</a>
+                    <a class="btn border-[#422ad5] text-[#422ad5]"><img src="./assets/fa-book-open.png" alt="">Learn</a>
+                    <a class="btn border-[#422ad5] text-[#422ad5]"><img src="./assets/fa-arrow-right-from-bracket.png" alt="">Logout</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- navbar end here -->
+
+    <!-- main section work here -->
+    <main>
+
+        <!-- start here section here -->
+        <section class="w-10/12 mx-auto">
+            <div class="hero flex items-center">
+                <div class="content flex flex-col gap-7">
+                    <h1 class="hero-title text-4xl font-bold"><span class="text-[#00bcff]">English</span> is Easy !!</h1>
+                    <p class="w-7/12 text-sm/8">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+                    <div class="flex flex-col gap-6 justify-start w-6/12">
+                        <input class="input" type="text" name="" placeholder="Enter Your Name" id="">
+                        <input class="input" type="number" name="" placeholder="Input here(123456)" id="">
+                        <button class="w-4/12 btn btn-primary flex">Get Started</button>
+                       
+                    </div>
+                    
+                </div>
+                <div class="img w-6/12">
+                    <img src="./assets/hero-student.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- end here section here -->
+
+
+        <!-- let's learn section start here -->
+        <section class="w-10/12 mx-auto mt-36">
+            <div class="contain flex flex-col gap-7">
+                <h1 class="text-3xl font-bold text-center"><span class="text-[#00bcff]">Let's </span>Learn Vocabularies</h1>
+
+                <div class="flex gap-4 justify-center">
+                    <a class="btn border-[#422ad5] text-[#422ad5]"><img src="./assets/fa-book-open.png" alt="">Leason-1</a>
+                    <a class="btn border-[#422ad5] text-[#422ad5]"><img src="./assets/fa-book-open.png" alt="">Leason-1</a>
+                    <a class="btn border-[#422ad5] text-[#422ad5]"><img src="./assets/fa-book-open.png" alt="">Leason-1</a>
+                    <a class="btn border-[#422ad5] text-[#422ad5]"><img src="./assets/fa-book-open.png" alt="">Leason-1</a>
+                    <a class="btn border-[#422ad5] text-[#422ad5]"><img src="./assets/fa-book-open.png" alt="">Leason-1</a>
+                    <a class="btn border-[#422ad5] text-[#422ad5]"><img src="./assets/fa-book-open.png" alt="">Leason-1</a>
+                    <a class="btn border-[#422ad5] text-[#422ad5]"><img src="./assets/fa-book-open.png" alt="">Leason-1</a>
+                </div>
+            </div>
+
+            <div class="text-center bg-base-200 py-20 rounded-xl mt-12">
+                <h3 class="text-[12px] mt-3">আপনি এখনো কোন Lesson Select করেন নি</h3>
+                <h1 class="text-2xl mt-4 font-bold">একটি Lesson Select করুন।</h1>
+            </div>
+        </section>
+        <!-- let's learn section end here -->
+
+
+        <!-- accrodian ask question section start -->
+        <section class="w-10/12 mx-auto my-24">
+            <div class="my-20">
+                <h1 class="text-3xl font-bold text-center"><span class="text-[#00bcff]">Let's </span>Learn Vocabularies</h1>
+            </div>
+
+            <div class="accrodian flex flex-col my-5">
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-sm font-bold">1. How can I start learning English on this website?</div>
+                        <div class="collapse-content">
+                            <p class="text-sm">You can start by exploring our beginner lessons, interactive exercises, and quizzes. We also offer structured courses to guide you step by step.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="collapse collapse-plus bg-base-200 my-5">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-sm font-bold">2. Is this website free to use?</div>
+                        <div class="collapse-content">
+                            <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque eveniet sit qui minus perferendis cumque fugiat voluptas nobis nostrum praesentium.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="collapse collapse-plus bg-base-200 my-5">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-sm font-bold">3. Do I need to create an account?</div>
+                        <div class="collapse-content">
+                            <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque eveniet sit qui minus perferendis cumque fugiat voluptas nobis nostrum praesentium.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="collapse collapse-plus bg-base-200 my-5">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-sm font-bold">4. How can I build my English vocabulary?</div>
+                        <div class="collapse-content">
+                            <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque eveniet sit qui minus perferendis cumque fugiat voluptas nobis nostrum praesentium.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-sm font-bold">5. Do you offer certificates for completed courses?</div>
+                        <div class="collapse-content">
+                            <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque eveniet sit qui minus perferendis cumque fugiat voluptas nobis nostrum praesentium.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+               
+            </div>
+        
+        </section>
+        <!-- accrodian ask question section end -->
+
+
+        <!-- footer section start -->
+
+        <footer class="bg-base-200 border-t-1 border-gray-200 py-20">
+            <section class="w-10/12 mx-auto py-3">
+            <div class="flex flex-col gap-2">
+                <div class="navbar-start flex items-center gap-2 pb-5">
+                    <h2 class="text-2xl font-bold">English</h2>
+                    <img src="./assets/logo.png" alt="">
+                    <h3 class="text-[18px] font-bold">জানালা</h3>
+                    
+                </div>
+                <div class="flex justify-between items-center">
+                    <h3 class="text-sm">ইংরেজি শিখুন সহজে</h3>
+                    <h4 class="text-[12px] font-medium">FOLLOW US</h4>
+                </div>
+                <div class="flex justify-between items-center">
+                    <h3>Providing ED-Tech Applications since 2025</h3>
+                    <div class="flex gap-3 items-center">
+                        <img class="w-5" src="./assets/fb-thumb.png" alt="">
+                        <img class="w-5" src="./assets/github-thumb.png" alt="">
+                        <img class="w-5" src="./assets/instagram-thumb.png" alt="">
+                        <img class="w-5" src="./assets/youtube-thumb.png" alt="">
+                    </div>
+                </div>
+                <div class="navbar-end gap-4">
+                    
+                </div>
+            </div>
+        </section>
+        </footer>
+
+    </main>
+
 </body>
 </html>
